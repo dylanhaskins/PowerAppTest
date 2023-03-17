@@ -3,11 +3,20 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "MainScreen": 3
+    "Button1": 11,
+    "Gallery1": 4,
+    "galleryTemplate1": 5,
+    "Image1": 6,
+    "Label1": 12,
+    "MainScreen": 3,
+    "NextArrow1": 9,
+    "Separator1": 10,
+    "Subtitle1": 8,
+    "Title1": 7
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/17/2023 22:57:13",
+  "HeaderLastSavedDateTimeUTC": "03/17/2023 23:02:00",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -15,30 +24,63 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 3,
+    "Info Stores": 4,
+    "Info Stores\\default.cds_hask_infostore_views": 2,
+    "Info Stores\\hask_infostore_statecode": 0,
+    "Info Stores\\hask_infostore_statuscode": 1
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 5,
+    "gallery": 0,
+    "icon": 3,
+    "image": 1,
+    "label": 2,
+    "rectangle": 4
+  },
   "OverridablePropertiesEntry": {
     "App": {},
-    "MainScreen": {}
+    "Button1": {},
+    "Gallery1": {},
+    "galleryTemplate1": {},
+    "Image1": {},
+    "Label1": {},
+    "MainScreen": {},
+    "NextArrow1": {},
+    "Separator1": {},
+    "Subtitle1": {},
+    "Title1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "MainScreen": 0
+    "Button1": 0,
+    "Gallery1": 0,
+    "galleryTemplate1": 0,
+    "Image1": 0,
+    "Label1": 0,
+    "MainScreen": 0,
+    "NextArrow1": 0,
+    "Separator1": 0,
+    "Subtitle1": 0,
+    "Title1": 0
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0283358,
+    "AnalysisLoadTime": 0.0369532,
     "ControlCount": {
       "screen": 1
     },
-    "DeserializationLoadTime": 1.132901,
+    "DeserializationLoadTime": 0.8748238,
     "ErrorCount": 0
   },
-  "WasLocalDatabaseReferencesEmpty": true
+  "WasLocalDatabaseReferencesEmpty": false
 }
