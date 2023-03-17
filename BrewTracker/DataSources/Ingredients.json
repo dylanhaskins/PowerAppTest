@@ -1,0 +1,121 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "hask_ingredients",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "hask_ingredient",
+    "Name": "Ingredients",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "hask_InfoStore": "Info Store",
+      "hask_ingredient_AsyncOperations": "System Jobs",
+      "hask_ingredient_BulkDeleteFailures": "Bulk Delete Failures",
+      "hask_ingredient_DuplicateBaseRecord": "Duplicate Records (hask_ingredient_DuplicateBaseRecord)",
+      "hask_ingredient_DuplicateMatchingRecord": "Duplicate Records (hask_ingredient_DuplicateMatchingRecord)",
+      "hask_ingredient_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "hask_ingredient_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "hask_ingredient_ProcessSession": "Process Sessions",
+      "hask_ingredient_SyncErrors": "Sync Errors",
+      "hask_ingredientid": "Ingredient",
+      "hask_name": "Name",
+      "hask_quantity": "Quantity",
+      "hask_unitofmeasure": "Unit of Measure",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Ingredients",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Ingredients (Views)",
+    "Name": "_hask_ingredient_views",
+    "RelatedEntityName": "Ingredients",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "a6834dca-1718-4411-8be7-b3185586496c": "Ingredient Associated View",
+      "a85a2c8b-33ea-4d20-92e4-566a6305bfa1": "Active Ingredients",
+      "b18e8732-56f5-4391-b30e-ed0984de3efc": "Ingredient Lookup View",
+      "d7750bcd-5fb3-468e-b2d7-d244a266899c": "Ingredient Advanced Find View",
+      "fe6cb73c-2e60-49e6-b662-622d872662a6": "Inactive Ingredients"
+    }
+  },
+  {
+    "DisplayName": "Status (Ingredients)",
+    "Name": "hask_ingredient_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Ingredients"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Ingredients",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Ingredients)",
+    "Name": "hask_ingredient_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Ingredients"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Ingredients",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Unit of Measure",
+    "Name": "hask_unitofmeasure",
+    "OptionSetInfoNameMapping": {
+      "600650000": "g",
+      "600650001": "ml",
+      "600650002": "L",
+      "600650003": "Kg"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "hask_unitofmeasure",
+        "OptionSetReferenceEntityName": "Ingredients"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "hask_unitofmeasure",
+    "RelatedEntityName": "Ingredients",
+    "Type": "OptionSetInfo"
+  }
+]
