@@ -36,7 +36,7 @@
     LblAppName1 As label:
         Height: =88
         Size: =27
-        Text: ="[Title]"
+        Text: =DataCardValue1
         Width: =Parent.Width - IconCancel1.Width - IconAccept1.Width
         Wrap: =false
         X: =IconCancel1.X + IconCancel1.Width
