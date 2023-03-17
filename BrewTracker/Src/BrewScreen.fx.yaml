@@ -36,7 +36,7 @@
     LblAppName2 As label:
         Height: =88
         Size: =27
-        Text: =DataCardValue2.Text & " - " & DataCardValue8.Text
+        Text: =DataCardValue2.Text
         Width: =Parent.Width - IconCancel2.Width - IconAccept2.Width
         Wrap: =false
         X: =IconCancel2.X + IconCancel2.Width
@@ -194,44 +194,6 @@
                 Y: =DataCardKey7.Y
                 ZIndex: =4
 
-        "'%ABV_DataCard1' As typedDataCard.textualViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="hask_abv"
-            Default: =ThisItem.'%ABV'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'Info Stores'],DataSourceInfo.DisplayName,"hask_abv")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =640
-            X: =0
-            Y: =3
-            ZIndex: =1
-
-            DataCardKey8 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue8 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
-                ZIndex: =2
-
         Rating_DataCard1 As typedDataCard.numberEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="hask_rating"
@@ -244,7 +206,7 @@
             Update: =Value(DataCardValue9.Text)
             Width: =640
             X: =0
-            Y: =4
+            Y: =3
             ZIndex: =1
 
             DataCardKey9 As label:
