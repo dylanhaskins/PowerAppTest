@@ -44,6 +44,7 @@
 
     EditForm2 As form:
         DataSource: ='Info Stores'
+        DefaultMode: =FormMode.New
         Height: =Parent.Height - EditForm2.Y
         Width: =Parent.Width
         Y: =RectQuickActionBar2.Height
