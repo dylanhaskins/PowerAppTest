@@ -1,6 +1,13 @@
 {
   "QualifiedValues": [
     {
+      "Kind": "default.cds_hask_infostore_forms",
+      "Namespace": "Info Stores (Forms)",
+      "Values": {
+        "Information": "cea6d95a-e1cc-4685-8f30-cc6de2183e5f"
+      }
+    },
+    {
       "Kind": "default.cds_hask_ingredient_forms",
       "Namespace": "Ingredients (Forms)",
       "Values": {

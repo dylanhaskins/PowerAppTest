@@ -118,6 +118,7 @@
   },
   "ScreenOrder": [
     "MainScreen",
-    "Screen1"
+    "IngredientScreen",
+    "BrewScreen"
   ]
 }
