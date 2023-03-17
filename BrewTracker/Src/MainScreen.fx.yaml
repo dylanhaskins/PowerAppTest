@@ -93,10 +93,10 @@ MainScreen As screen:
         Font: =Font.'Lato Black'
         Height: =70
         HintText: ="Search A Brew"
-        OnChange: =
+        OnChange: =TextInput1.Text
         Size: =21
         Width: =286
-        X: =16
-        Y: =491
+        X: =64
+        Y: =488
         ZIndex: =4
 
