@@ -1,0 +1,101 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "hask_infostores",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "hask_infostore",
+    "Name": "Info Stores",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "hask_abv": "%ABV",
+      "hask_brewname": "Brew Name",
+      "hask_finalgravity": "Final Gravity",
+      "hask_infostore_AsyncOperations": "System Jobs",
+      "hask_infostore_BulkDeleteFailures": "Bulk Delete Failures",
+      "hask_infostore_DuplicateBaseRecord": "Duplicate Records (hask_infostore_DuplicateBaseRecord)",
+      "hask_infostore_DuplicateMatchingRecord": "Duplicate Records (hask_infostore_DuplicateMatchingRecord)",
+      "hask_infostore_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "hask_infostore_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "hask_infostore_ProcessSession": "Process Sessions",
+      "hask_infostore_SyncErrors": "Sync Errors",
+      "hask_infostoreid": "Info Store",
+      "hask_Ingredient_hask_InfoStore_hask_InfoS": "Ingredients",
+      "hask_originalgravity": "Original Gravity",
+      "hask_rating": "Rating",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Info Stores",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Info Stores (Views)",
+    "Name": "_hask_infostore_views",
+    "RelatedEntityName": "Info Stores",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1c04840a-0118-44bb-8b95-87771657e65a": "Info Store Advanced Find View",
+      "36ec57b6-b9b2-4012-b454-1a9fa7a9e14a": "Info Store Lookup View",
+      "5561a156-81ac-4874-901a-ce79ebfed22d": "Info Store Associated View",
+      "988693e4-f590-41c7-8960-457e78765ca7": "Active Info Stores",
+      "cfd082d2-afbe-4d43-b13d-b84af81f6ab6": "Inactive Info Stores"
+    }
+  },
+  {
+    "DisplayName": "Status (Info Stores)",
+    "Name": "hask_infostore_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Info Stores"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Info Stores",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Info Stores)",
+    "Name": "hask_infostore_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Info Stores"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Info Stores",
+    "Type": "OptionSetInfo"
+  }
+]
